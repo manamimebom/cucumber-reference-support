@@ -6,13 +6,12 @@ Before we start, I would like to thank the author of [Pytest BDD](https://gitlab
 
 - Redirecting from the step definition function to all the feature bdd step(right click, Find All Behave References)
 
-For example if there is an image subfolder under your extension project workspace:
-
 ![example](images/example.gif)
 
 ## Requirements
 
 - Python (ms-python.python) addon installed
+- an empty settings.json file in .vscode (also required by [Cucumber (Gherkin) Full Support](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete))
 - Recommends
     - the extension only support [Behave](https://behave.readthedocs.io/en/stable/), other library for BDD test is not guaranteed.
     - you may install [Cucumber (Gherkin) Full Support](https://marketplace.visualstudio.com/items?itemName=alexkrechik.cucumberautocomplete) first. It's a powerful and compatible extension.
