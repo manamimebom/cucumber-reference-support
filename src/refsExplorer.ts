@@ -78,7 +78,6 @@ export class RefItemProvider implements vscode.TreeDataProvider<Reftem> {
 				childs.push(reftem);
 			});
 		}
-		console.log(childs);
 		return Promise.resolve(childs);
 	}
 

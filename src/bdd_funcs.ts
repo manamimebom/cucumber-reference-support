@@ -63,16 +63,15 @@ export function find_references(){
 }
 
 export function format_decorator(text: string): string{
-	var reg = text.match(/@(Given|When|Then)/);
+	var reg = text.toLowerCase().match(/@(given|when|then)/);
 	if(isNull(reg)){ return '';}
-
-	reg = text.match(/\((u'|").*['"][ ]*\)/);
+	reg = text.match(/\((u'|"|').*['"][ ]*\)/);
 	if(isNull(reg)){ return '';}
 	var body =  reg[0];
-	body = body.replace(/\((u'|")/, '');
+	body = body.replace(/\((u'|"|')/, '');
 	body = body.replace(/['"][ ]*\)/, '');
 
-	reg = text.match(/@[A-Z][a-z]*\(/);
+	reg = text.match(/@[A-Za-z][a-z]*\(/);
 	if(isNull(reg)){return '';}
 	var keyw = reg[0].replace('@', '').replace('(', '').trim();
 

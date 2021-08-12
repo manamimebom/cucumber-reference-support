@@ -9,7 +9,6 @@ export function activate(context: vscode.ExtensionContext) {
 
 	let disposable = vscode.commands.registerCommand('cucumber-reference-support.findAllReferences', () => {
 		bdd_funcs.find_references().then( results =>{	
-			console.log(results);		
 			init_refs_explorer();
 			if (results !== undefined){refsProv.results = results;}
 		}); 
