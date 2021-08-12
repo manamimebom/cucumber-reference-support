@@ -1,0 +1,106 @@
+{
+  "name": "cucumber-reference-support",
+  "displayName": "Cucumber Reference Support",
+  "description": "Provide a clear explorer when finding BDD step refernces",
+  "version": "0.0.1",
+  "publisher": "manamimebom",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/manamimebom/cucumber-reference-support"
+	},
+  "engines": {
+    "vscode": "^1.58.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:python",
+    "onLanguage:feature",
+    "workspaceContains:.vscode/settings.json"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "bdd_references_container",
+          "title": "BDD References",
+          "icon": "resources/dark/reference.svg"
+        }
+      ]
+    },
+    "views": {
+      "bdd_references_container": [
+        {
+          "id": "bdd_refs",
+          "name": " Pytest bdd Refs",
+          "contextualTitle": "BDD Step Function References"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "bdd_refs",
+        "contents": "No Bdd Step References Found"
+      }
+    ],
+    "commands": [
+      {
+        "command": "cucumber-reference-support.findAllReferences",
+        "title": "Find All Behave References"
+      },
+      {
+        "command": "bdd.go2Reference",
+        "title": "Go To Reference",
+        "icon": {
+          "light": "resources/light/file.svg",
+          "dark": "resources/dark/file.svg"
+        }
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "resourceLangId == python",
+          "command": "cucumber-reference-support.findAllReferences",
+          "group": "navigation"
+        }
+      ],
+      "commandPalette": [
+        {
+          "command": "bdd.go2Reference",
+          "when": "false"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "bdd.go2Reference",
+          "when": "view == bdd_refs",
+          "group": "inline"
+        }
+      ]
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile && yarn run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/glob": "^7.1.3",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "14.x",
+    "@types/vscode": "^1.58.0",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "glob": "^7.1.7",
+    "mocha": "^8.4.0",
+    "typescript": "^4.3.2",
+    "vscode-test": "^1.5.2"
+  }
+}
