@@ -1,6 +1,6 @@
-# cucumber-reference-support README
+# cucumber-reference-support
 
-Before we start, I would like to thank the author of [Pytest BDD](https://gitlab.com/vtenentes/pytest-bdd), this whold project is based on his work.
+Before we start, I would like to thank the author of [Pytest BDD](https://gitlab.com/vtenentes/pytest-bdd), this project is based on his work.
 
 ## Features
 
