@@ -1,4 +1,4 @@
-# cucumber-reference-support
+# Cucumber Reference Support
 
 Before we start, I would like to thank the author of [Pytest BDD](https://gitlab.com/vtenentes/pytest-bdd), this project is based on his work.
 
@@ -6,7 +6,7 @@ Before we start, I would like to thank the author of [Pytest BDD](https://gitlab
 
 - Redirecting from the step definition function to all the feature bdd step(right click, Find All Behave References)
 
-![example](images/example.gif)
+![example](https://raw.githubusercontent.com/manamimebom/cucumber-support/master/images/example.gif)
 
 ## Requirements
 

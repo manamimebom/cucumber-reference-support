@@ -4,6 +4,7 @@
   "description": "Provide a clear explorer when finding BDD step refernces",
   "version": "0.0.1",
   "publisher": "manamimebom",
+  "icon": "resources/cucumber-support-icon.png",
   "repository": {
 		"type": "git",
 		"url": "https://github.com/manamimebom/cucumber-reference-support"
