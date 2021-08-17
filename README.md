@@ -20,5 +20,5 @@ Before we start, I would like to thank the author of [Pytest BDD](https://gitlab
 
 ### 0.0.1
 
-Initial release of cucumber-reference-support
+Initial release of cucumber-support
 
