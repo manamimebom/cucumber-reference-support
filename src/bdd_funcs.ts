@@ -57,6 +57,10 @@ export function find_references(){
 			}
 		});
 		
+		results.sort(function (a, b) {
+			return a.file.path.localeCompare(b.file.path);
+		  });
+		
 		vscode.commands.executeCommand("workbench.view.extension.bdd_references_container");
 		return results;
 	});
