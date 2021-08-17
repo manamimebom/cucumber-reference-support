@@ -1,11 +1,8 @@
 import * as vscode from 'vscode';
 import * as fs from 'fs';
-import * as path from 'path';
-import * as glob from 'glob';
 import { isUndefined } from 'util';
 import { promises } from 'dns';
 import * as bdd_funcs from './bdd_funcs';
-import { rootCertificates } from 'tls';
 
 export class RefItemProvider implements vscode.TreeDataProvider<Reftem> {
 	private _items: Reftem[] = [];
