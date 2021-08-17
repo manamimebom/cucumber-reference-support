@@ -1,13 +1,13 @@
 {
-  "name": "cucumber-reference-support",
-  "displayName": "Cucumber Reference Support",
+  "name": "cucumber-support",
+  "displayName": "Cucumber Reference Support (Behave)",
   "description": "Provide a clear explorer when finding BDD step refernces",
   "version": "0.0.1",
   "publisher": "manamimebom",
   "icon": "resources/cucumber-support-icon.png",
   "repository": {
 		"type": "git",
-		"url": "https://github.com/manamimebom/cucumber-reference-support"
+		"url": "https://github.com/manamimebom/cucumber-support"
 	},
   "engines": {
     "vscode": "^1.58.0"

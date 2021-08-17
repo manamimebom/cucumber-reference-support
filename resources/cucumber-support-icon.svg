@@ -1,0 +1,41 @@
+<svg width="500" height="500" xmlns="http://www.w3.org/2000/svg">
+ <g id="Layer_1">
+  <title>Layer 1</title>
+  <ellipse fill="#a1c991" cx="250" cy="250" id="svg_2" rx="249.47369" ry="249.47369"/>
+  <text fill="#000000" x="113.77854" y="352.25414" id="svg_5" stroke-width="0" font-size="24" font-family="'Montserrat ExtraBold'" text-anchor="start" xml:space="preserve" font-weight="normal" font-style="normal" stroke="#000" transform="matrix(2.58604 0 0 2.58604 -216.957 -569.166)">Cucumber</text>
+  <text fill="#000000" stroke-width="0" x="180.16561" y="427.24864" id="svg_6" font-size="24" font-family="'Montserrat ExtraBold'" text-anchor="start" xml:space="preserve" stroke="#000" transform="matrix(2.06641 0 0 2.17864 -229.675 -513.953)">Support</text>
+  <g stroke="null" id="svg_1">
+   <title stroke="null">cucumber</title>
+   <g stroke="null" id="svg_32">
+    <circle stroke="null" id="svg_3" cx="254.76953" cy="158.79182" r="78.13419" fill="#edebdc"/>
+    <line stroke="#4c241d" id="svg_4" x1="277.14309" y1="191.3568" x2="286.7502" y2="200.96392" stroke-width="5px" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <line stroke="#4c241d" id="svg_7" x1="286.7502" y1="191.3568" x2="277.14309" y2="200.96392" stroke-width="5px" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <path stroke="#4c241d" id="svg_8" d="m234.38668,158.79182l13.58856,0a0,0 0 0 1 0,0l0,101.91421a6.79428,6.79428 0 0 1 -6.79428,6.79428l0,0a6.79428,6.79428 0 0 1 -6.79428,-6.79428l0,-101.91421a0,0 0 0 1 0,0l-0.00001,0z" stroke-width="5px" stroke-linejoin="round" stroke-linecap="round" fill="#fc8c29"/>
+    <path stroke="#4c241d" id="svg_9" d="m261.5638,107.83472l0,30.57426a20.38284,20.38284 0 0 1 -20.38284,20.38284l0,0a20.38284,20.38284 0 0 1 -20.38284,-20.38284l0,-30.57426" stroke-width="5px" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <line stroke="#4c241d" id="svg_10" x1="234.38668" y1="158.79182" x2="234.38668" y2="107.83472" stroke-width="5px" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <line stroke="#4c241d" id="svg_11" x1="247.97524" y1="158.79182" x2="247.97524" y2="107.83472" stroke-width="5px" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <line stroke="#4c241d" id="svg_12" x1="234.38668" y1="179.17467" x2="247.97524" y2="179.17467" stroke-width="5px" stroke-linejoin="round" fill="none"/>
+    <path stroke="#4c241d" id="svg_13" d="m234.31535,118.27413a151.03685,151.03685 0 0 1 -54.0485,-10.15745a20.38284,20.38284 0 1 1 14.85569,-37.95964a100.3753,100.3753 0 0 0 89.90531,-6.93357a20.38284,20.38284 0 0 1 21.12681,34.86485a136.90474,136.90474 0 0 1 -71.83932,20.1858l0,0.00001z" stroke-width="5px" stroke-linejoin="round" stroke-linecap="round" fill="#a9ba5a"/>
+    <line stroke="#4c241d" id="svg_14" x1="313.07464" y1="70.19101" x2="319.31519" y2="67.06904" stroke-width="5px" stroke-linejoin="round" stroke-linecap="round" fill="#a9ba5a"/>
+    <circle stroke="null" id="svg_15" cx="191.92243" cy="85.75331" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_16" cx="181.73101" cy="92.54759" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_17" cx="202.11385" cy="99.34187" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_18" cx="215.70242" cy="89.15045" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_19" cx="219.09955" cy="99.34187" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_20" cx="236.08525" cy="106.13615" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_21" cx="232.68812" cy="92.54759" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_22" cx="249.67381" cy="92.54759" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_23" cx="249.67381" cy="106.13615" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_24" cx="270.05665" cy="85.75331" r="3.84554" fill="#4c241d"/>
+    <circle stroke="null" id="svg_25" cx="283.64521" cy="92.54759" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_26" cx="283.64521" cy="78.95902" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_27" cx="300.63091" cy="85.75331" r="3.84555" fill="#4c241d"/>
+    <circle stroke="null" id="svg_28" cx="263.26238" cy="99.34187" r="3.84555" fill="#4c241d"/>
+    <circle stroke="#4c241d" id="svg_29" cx="203.81242" cy="219.94034" r="6.79427" stroke-width="5px" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <circle stroke="#4c241d" id="svg_30" cx="305.72662" cy="135.01184" r="6.79427" stroke-width="5px" stroke-linejoin="round" stroke-linecap="round" fill="none"/>
+    <circle stroke="null" id="svg_31" cx="193.62101" cy="168.98324" r="3.39714" fill="#4c241d"/>
+   </g>
+  </g>
+ </g>
+
+</svg>
