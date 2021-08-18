@@ -101,7 +101,12 @@ export class Reftem extends vscode.TreeItem {
 		public fpath?: string
 	) {
 		super(label, collapsibleState);
-
+		this.tooltip = `Click to open ${this.label}.`;
+		this.command = {
+			command: 'bdd.go2Reference',
+			title: 'Open workspace in same window',
+			arguments: [this],
+		};	
 	}
 
 	get icon():string{

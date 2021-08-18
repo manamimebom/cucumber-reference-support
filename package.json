@@ -1,7 +1,7 @@
 {
   "name": "cucumber-support",
   "displayName": "Cucumber Reference Support (Behave)",
-  "description": "Provide a clear explorer when finding BDD step refernces",
+  "description": "Provide a clear explorer when finding Behave step refernces",
   "version": "0.0.1",
   "publisher": "manamimebom",
   "icon": "resources/cucumber-support-icon.png",
@@ -35,50 +35,39 @@
       "bdd_references_container": [
         {
           "id": "bdd_refs",
-          "name": " Pytest bdd Refs",
-          "contextualTitle": "BDD Step Function References"
+          "name": " Step Functions",
+          "contextualTitle": "Behave References"
         }
       ]
     },
     "viewsWelcome": [
       {
         "view": "bdd_refs",
-        "contents": "No Bdd Step References Found"
+        "contents": "No Behave Step References Found"
       }
     ],
     "commands": [
       {
-        "command": "cucumber-reference-support.findAllReferences",
+        "command": "bdd.findAllReferences",
         "title": "Find All Behave References"
       },
       {
         "command": "bdd.go2Reference",
-        "title": "Go To Reference",
-        "icon": {
-          "light": "resources/light/file.svg",
-          "dark": "resources/dark/file.svg"
-        }
+        "title": "Go To Reference"
       }
     ],
     "menus": {
       "editor/context": [
         {
           "when": "resourceLangId == python",
-          "command": "cucumber-reference-support.findAllReferences",
-          "group": "navigation"
+          "command": "bdd.findAllReferences",
+          "group": "1"
         }
       ],
       "commandPalette": [
         {
           "command": "bdd.go2Reference",
           "when": "false"
-        }
-      ],
-      "view/item/context": [
-        {
-          "command": "bdd.go2Reference",
-          "when": "view == bdd_refs",
-          "group": "inline"
         }
       ]
     }
