@@ -1,11 +1,8 @@
 import * as vscode from 'vscode';
 import * as fs from 'fs';
-import * as path from 'path';
-import * as glob from 'glob';
 import { isUndefined } from 'util';
 import { promises } from 'dns';
 import * as bdd_funcs from './bdd_funcs';
-import { rootCertificates } from 'tls';
 
 export class RefItemProvider implements vscode.TreeDataProvider<Reftem> {
 	private _items: Reftem[] = [];
@@ -104,7 +101,12 @@ export class Reftem extends vscode.TreeItem {
 		public fpath?: string
 	) {
 		super(label, collapsibleState);
-
+		this.tooltip = `Click to open ${this.label}.`;
+		this.command = {
+			command: 'bdd.go2Reference',
+			title: 'Open workspace in same window',
+			arguments: [this],
+		};	
 	}
 
 	get icon():string{
