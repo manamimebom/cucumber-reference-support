@@ -6,4 +6,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [0.0.2] - 2021-11-09
+### Fixed
+- Typo in introduction
+
+## [0.0.1] - 2021-08-19
 - Initial release
